@@ -1,10 +1,6 @@
 # 🌧️ StormSense AI
 ### AI-Based Urban Stormwater Runoff Estimator
 
-> **21CEO306T — Environment Impact Assessment · Batch 5**
-> Department of Computing Technologies, SRM Institute of Science and Technology, Kattankulathur
-> Guide: **Dr. Vimalanandan G**
-
 StormSense AI is a mobile app that shows **how much more rainwater will run off the ground when green land is turned into a smart city**, which zones are most at risk, and how green solutions can reduce the impact, all **before construction begins**.
 
 ---
@@ -120,9 +116,5 @@ This is a **simulated prototype for preliminary EIA and urban-planning decision 
 - Real flood prediction needs reliable local data, calibration and independent validation.
 
 ---
-
-## 👥 Team — Batch 5
-
-Jissa Aan Juby · Devanshi Karaulia · Vedika Kapoor · Pola Gautam Sai · Priyanshu · Uppala Manjusha · Zeeshan Ahmed · Sanjana Jaiswal · Jeevan Sarasram S S
 
 Weather data: [Open-Meteo](https://open-meteo.com) (CC BY 4.0)
