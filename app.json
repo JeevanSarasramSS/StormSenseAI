@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "StormSense AI",
+    "slug": "stormsense-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "StormSense AI uses your location to show live rainfall and soil moisture for your area."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "backgroundColor": "#0b1220",
+    "splash": {
+      "backgroundColor": "#0b1220",
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "StormSense AI uses your location to show live rainfall and soil moisture for your area."
+        }
+      ]
+    ]
+  }
+}
